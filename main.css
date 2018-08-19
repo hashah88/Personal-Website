@@ -1,0 +1,73 @@
+.navbar{
+    /* background-color: rgb(34, 54, 14) ; */
+    background-color:  #A1c084 ;
+}
+
+.afterNav{
+    padding-top: 100px;
+    padding-left: 160px;
+
+}
+
+a{
+    color: white !important;
+}
+
+.afterCard{
+    height: 70rem;
+    background-color  : #A1c084 ;
+    display: flex;
+}
+
+.items {
+    padding-top: 40px;
+    flex: 1;
+    padding: 10px;
+}
+
+.projectImages{
+    width: 100px;
+}
+
+.AboutMe{
+    padding-top: 100px;
+    height: 41.8rem;
+    background-color: #A1c084;
+}
+
+/* img {
+    -webkit-filter: drop-shadow(9px 9px 9px #222222);
+    filter: drop-shadow(9px 9px 9px #222222);
+  } */
+
+  #AboutMeHeader{
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.2em !important;
+      font-size: 45px;
+      font-weight: 100;
+  }
+
+  .header-btn {
+    background-color: #fff;
+    padding: 8px 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.884) !important;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.Header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.flex-container{
+   display: flex;
+   padding-top: 50px;
+}
+
