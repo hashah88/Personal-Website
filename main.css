@@ -68,6 +68,27 @@ a{
 
 .flex-container{
    display: flex;
-   padding-top: 50px;
+   /* background-color: aqua; */
+   justify-content: space-around;
+   padding-top: 100px;
+}
+
+.flex-items{
+    width: 25%;
+}
+
+.project-images{
+    border-radius: 25px;
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0, 0.2), 0 11px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex-container2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-items2{
+  width: 70%;
+  height: 70%;
 }
 
