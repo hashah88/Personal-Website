@@ -1,6 +1,10 @@
 .navbar{
     /* background-color: rgb(34, 54, 14) ; */
     background-color:  #A1c084 ;
+
+    /* Newly added stuff */
+    justify-content: space-evenly !important;
+    
 }
 
 .afterNav{
@@ -19,26 +23,11 @@ a{
     display: flex;
 }
 
-.items {
-    padding-top: 40px;
-    flex: 1;
-    padding: 10px;
-}
-
-.projectImages{
-    width: 100px;
-}
-
 .AboutMe{
     padding-top: 100px;
     height: 41.8rem;
     background-color: #A1c084;
 }
-
-/* img {
-    -webkit-filter: drop-shadow(9px 9px 9px #222222);
-    filter: drop-shadow(9px 9px 9px #222222);
-  } */
 
   #AboutMeHeader{
       color: white;
@@ -68,7 +57,7 @@ a{
 
 .flex-container{
    display: flex;
-   /* background-color: aqua; */
+   background: linear-gradient(to bottom, #fff 0%, #fff 50%, #ddd 50%, #dddddd59  100%);
    justify-content: space-around;
    padding-top: 100px;
 }
@@ -85,10 +74,49 @@ a{
 .flex-container2{
   display: flex;
   justify-content: space-around;
+  background: linear-gradient(to bottom, #dddddd59 50%, #dddddd59 50%, #fff 50%, #fff 100%);
 }
 
 .flex-items2{
   width: 70%;
   height: 70%;
+}
+
+#sourceCode1 {
+    background-color: #fff;
+    padding: 8px 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.884) !important;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-right: 110px;
+
+}
+
+#sourceCode2{
+    background-color: #fff;
+    padding: 8px 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.884) !important;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-left: 230px;
+    margin-right: 50px;
+
+}
+
+#sourceCode3{
+    background-color: #fff;
+    padding: 8px 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.884) !important;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-left: 275px;
+
 }
 
