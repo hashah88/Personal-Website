@@ -18,32 +18,35 @@
 
 <body>
   <nav class="navbar fixed-top navbar-light">
-    <a style="padding-left : 500px !important" class="navbar-brand" href="#">About</a>
-    <a class="navbar-brand" href="#">Skills</a>
-    <a class="navbar-brand" href="#">Projects</a>
-    <a class="navbar-brand" href="#">Contact</a>
+    <a style="padding-left : 500px !important" href="#AboutMe">About</a>
+    <a href="#Projects">Projects</a>
+    <a href="#Skills">Skills</a>
+    <a href="#">Contact</a>
   </nav>
 
   <!-- All the content after the nav bar goes here -->
-  <div class="AboutMe">
+  <div id="AboutMe" class="AboutMe">
     <div>
       <img style="width: 30rem ; float :left ; margin-left: 10rem" src="MyPic.png">
       <div style="padding-top : 100px; padding-left:700px">
-        <!-- <h1 style="font-family: 'Courgette', cursive; font-size:3.5rem ; color:white"> About Me</h1> -->
         <h1 id="AboutMeHeader"> Hi, I'm
           <br>
           <span style="font-weight :500"> Haley Shah</span>
           <br>
         </h1>
-        <p> I am a junior at the University of Alabama, studying Computer Science. I am an energetic extrovert who loves tinkering
-          the code and building products that benefit Society</p>
-        <p> myHobbies.append("Coding", "Dancing", "Talking", "Travelling")</p>
+        <p> I am a junior at the University of Alabama, studying Computer Science. I am also an energetic extrovert who loves
+          tinkering the code and building products that benefit Society. During my internship at Insuresoft, I gained a technical
+          experience which , with my strong passion for technology, I would like to put it to a good use. </p>
+        <p> myHobbies.
+          <span style="color:#7e7e7e">
+            <i>append</i>
+          </span> ("Coding", "Dancing", "Talking", "Travelling")</p>
         <a href="#" class="header-btn">RESUME</a>
       </div>
     </div>
   </div>
 
-  <div>
+  <div id="Projects">
     <h1 class="Header"> Latest Done Projects</h1>
     <div class="flex-container">
       <img class="flex-items project-images" src="RestaurantDetails.gif">
@@ -57,99 +60,32 @@
       <img class="flex-items2" src="right.png">
     </div>
 
-    <a id="sourceCode1"> Source Code</a>
-    <a id="sourceCode2"> Source Code</a>
+    <a href="https://github.com/hashah88/PizzaHunter-APP" title="PizzaHunter App" id="sourceCode1" target="_blank"> Source Code</a>
+    <a href="https://github.com/hashah88/foodPro" title="foodPro App" id="sourceCode2" target="_blank"> Source Code</a>
     <a id="sourceCode3"> Source code</a>
-
   </div>
 
 
 
   <!-- SKILLS Section here -->
-  <div style="background-color : #ffff; height : 60rem;">
+  <div id="Skills" style="background-color : #ffff; height : 60rem;">
     <h1 style="text-decoration-line: underline !important" class="Header"> Skills</h1>
     <img style="width : 70rem ; margin-left : 70px" src="mySkills2.png">
   </div>
 
-  <div>
-
+  <div style="background-color :#a77c86; height: 13rem " id="Contacts">
+    <p class="contact">
+      <a href="mailto:shahhetvi990@gmail.com" target="_blank">
+        <i class="fa fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/hetavi-shah-915540121/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/hashah88" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </p>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-  <!--     
-   <div class="afterNav">
-      <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="width: 70rem ; height : 40rem">
-        <div class="card-body">
-        <img src="Myself.png" style="width: 350px ; padding:30px">
-      <div style= "position: absolute ; display : inline-block">
-        <h1> About Me</h1>
-        <p> I am honors student at the University Of Alabama , currently pursuing Computer Science</p>
-        </div>
-      </div>
-      <img class="card-img-top" src="..." alt="Card image cap"> -->
-  <!-- <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-      </div>
-    </div>
-    <div>
-      <h1> Projects</h1>
-    </div>
-    <div class="afterCard">
-     <div class="items">
-       <img src ="App.gif" style="width : 300px" >
-       <img src ="AboutMe.png" style="display : block">
-
-     </div>
-     <div class="items">
-        <img src ="RestaurantDetails.gif" style="width : 300px">
-        <img src ="AboutMe.png" style="display : block">
-      </div>
-     <div class="items">
-        <img src ="RestaurantDetails.gif" style="width : 300px">
-        <img src ="AboutMe.png" style="display : block">
-      </div>
-    </div>
-  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   <!-- Optional JavaScript -->
